@@ -12,17 +12,17 @@ Some of them are only in the AUR, so I am using `yay`:
 
 ```bash
 yay -S \
-  ruff \ # python formatter/linter
-  ty \ # python type checker
-  rust-analyzer \ # rust LSP
-  lua-language-server \ # lua LSP
-  stylua \ # lua formatter
-  texlab \ # LaTeX LSP
-  tex-fmt \ # LaTeX formatter
-  tinymist \ # typst LSP
-  typstyle \ # typst formatter
-  mdformat \ # markdown formatter
-  superhtml # html formatter
+  ruff `# Python linter/formatter` \
+  ty `# Python type checker` \
+  rust-analyzer `# Rust language server` \
+  lua-language-server `# Lua LSP` \
+  stylua `# Lua formatter` \
+  texlab `# LaTeX language server` \
+  tex-fmt `# LaTeX formatter` \
+  tinymist `# Typst language server` \
+  typstyle `# Typst formatter` \
+  mdformat `# Markdown formatter` \
+  superhtml `# HTML language server`
 ```
 
 ______________________________________________________________________
