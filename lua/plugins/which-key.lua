@@ -1,6 +1,6 @@
 return { -- Useful plugin to show you pending keybinds.
   'folke/which-key.nvim',
-  event = 'VimEnter', -- Sets the loading event to 'VimEnter'
+  event = 'VeryLazy',
   opts = {
     icons = {
       -- set icon mappings to true if you have a Nerd Font
@@ -43,9 +43,6 @@ return { -- Useful plugin to show you pending keybinds.
     spec = {
       { '<leader>b', group = '[B]uffer' },
       { '<leader>f', group = '[F]ind' },
-      { '<leader>r', group = '[R]ename' },
-      { '<leader>t', group = '[T]oggle' },
-      { '<leader>l', group = '[L]ove 2D' },
     },
   },
 }
