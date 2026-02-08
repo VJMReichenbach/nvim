@@ -1,18 +1,11 @@
-This config is based on [kickstart.nvim](https://github.com/nvim-lua/kickstart.nvim).
-Some of it was also inspired by my friends [personal config](https://github.com/lukasgeis/dotfiles).
+<a href="https://dotfyle.com/VJMReichenbach/nvim"><img src="https://dotfyle.com/VJMReichenbach/nvim/badges/plugins?style=for-the-badge" /></a>
+<a href="https://dotfyle.com/VJMReichenbach/nvim"><img src="https://dotfyle.com/VJMReichenbach/nvim/badges/leaderkey?style=for-the-badge" /></a>
+<a href="https://dotfyle.com/VJMReichenbach/nvim"><img src="https://dotfyle.com/VJMReichenbach/nvim/badges/plugin-manager?style=for-the-badge" /></a>
+
+This repository contains my neovim config.
+The rest of my dotfiles can be found [here](https://github.com/VJMReichenbach/dotFiles)
 
 ______________________________________________________________________
 
-Clean complete config with:
-
-```bash
-rm -rf ~/.config/nvim ~/.local/share/nvim/ ~/.local/state/nvim/ ~/.cache/nvim/
-```
-
-It is important, that `~/.config/nvim` doesn't have a `/` at the end, because it's a symlink.
-
-You might also need to remove a file from `.dots/`, since toml-bombadil doesn't do it automatically:
-
-```bash
-rm -rf .dots/
-```
+This config was originally based on [kickstart.nvim](https://github.com/nvim-lua/kickstart.nvim).
+Some of it was also inspired by my friends [personal config](https://github.com/lukasgeis/dotfiles).
