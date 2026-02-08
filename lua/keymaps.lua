@@ -1,14 +1,8 @@
 local set = vim.keymap.set
 
 return {
-  -- [[ Basic Keymaps ]]
-  --  See `:help set()`
-
   -- Clear highlights on search when pressing <Esc> in normal mode
   set('n', '<Esc>', '<cmd>nohlsearch<CR>'),
-
-  -- Open explorer (Removed for neotree)
-  -- set('n', '<leader>e', vim.cmd.Ex, { desc = 'Open [E]xplorer' }),
 
   -- Diagnostic keymaps
   set(
