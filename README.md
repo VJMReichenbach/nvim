@@ -18,11 +18,11 @@ yay -S \
   lua-language-server `# Lua LSP` \
   stylua `# Lua formatter` \
   texlab `# LaTeX language server` \
-  tex-fmt `# LaTeX formatter` \
+  tex-fmt-bin `# LaTeX formatter` \
   tinymist `# Typst language server` \
   typstyle `# Typst formatter` \
   mdformat `# Markdown formatter` \
-  superhtml `# HTML language server`
+  superhtml-bin `# HTML language server`
 ```
 
 ______________________________________________________________________
