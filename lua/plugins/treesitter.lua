@@ -5,6 +5,7 @@ return {
     local filetypes = {
       'bash',
       'diff',
+      'latex',
       'lua',
       'markdown',
       'markdown_inline',
