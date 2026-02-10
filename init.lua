@@ -71,5 +71,6 @@ vim.filetype.add {
     gitconfig = 'gitconfig',
     sshconfig = 'sshconfig',
     ghostty = 'config',
+    kanata = 'lisp',
   },
 }
