@@ -20,6 +20,7 @@ yay -S \
   texlab `# LaTeX language server` \
   tex-fmt-bin `# LaTeX formatter` \
   tinymist `# Typst language server` \
+  typescript-language-server `# Type Script language server` \
   typstyle `# Typst formatter` \
   mdformat `# Markdown formatter` \
   superhtml-bin `# HTML language server`

@@ -12,6 +12,7 @@ return {
       'nu',
       'python',
       'rust',
+      'typescript',
       'vim',
       'vimdoc',
     }
