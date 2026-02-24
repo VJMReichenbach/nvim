@@ -20,10 +20,15 @@ yay -S \
   texlab `# LaTeX language server` \
   tex-fmt-bin `# LaTeX formatter` \
   tinymist `# Typst language server` \
-  typescript-language-server `# Type Script language server` \
   typstyle `# Typst formatter` \
   mdformat `# Markdown formatter` \
-  superhtml-bin `# HTML language server`
+  bun `# Package Manager/Runtime for webdev stuff` \
+```
+
+Install typescript stuff via `bun`:
+
+```bash
+bun install --global typescript-language-server oxfmt
 ```
 
 ______________________________________________________________________

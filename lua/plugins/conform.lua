@@ -13,7 +13,20 @@ return { -- Autoformatter
       markdown = { 'mdformat' },
       tex = { 'tex-fmt' },
       typst = { 'typstyle' },
-      html = { 'superhtml' },
+
+      -- webdev stuff
+      html = { 'oxfmt' },
+      css = { 'oxfmt' },
+      javascript = { 'oxfmt' },
+      javascriptreact = { 'oxfmt' },
+      typescript = { 'oxfmt' },
+      typescriptreact = { 'oxfmt' },
+      vue = { 'oxfmt' },
+
+      -- config files
+      json = { 'oxfmt' },
+      yaml = { 'oxfmt' },
+      toml = { 'oxfmt' },
     },
   },
 }
