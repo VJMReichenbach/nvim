@@ -28,7 +28,7 @@ yay -S \
 Install typescript stuff via `bun`:
 
 ```bash
-bun install --global typescript-language-server oxfmt
+bun install --global typescript-language-server oxfmt oxlint
 ```
 
 ______________________________________________________________________

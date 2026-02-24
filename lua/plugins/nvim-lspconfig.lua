@@ -28,7 +28,8 @@ return {
       'ruff', -- Python linter
       'ty', -- Python type checker
       'rust_analyzer', -- Rust language server
-      'ts_ls', -- Type Script language server
+      'ts_ls', -- TypeScript language server
+      'oxlint', -- TypeScript linter
       'lua_ls', -- Lua language server
       'texlab', -- LaTeX language server
       'tinymist', -- Typst lsp
