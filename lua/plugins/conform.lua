@@ -9,7 +9,7 @@ return { -- Autoformatter
     formatters_by_ft = {
       -- Conform can also run multiple formatters sequentially
       lua = { 'stylua' },
-      python = { 'ruff' },
+      python = { 'ruff format' },
       markdown = { 'mdformat' },
       tex = { 'tex-fmt' },
       typst = { 'typstyle' },
