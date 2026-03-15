@@ -60,6 +60,14 @@ return {
   -- Save on <leader>w
   vim.keymap.set('n', '<leader>w', '<cmd>w<CR>', { desc = '[W]rite buffer' }),
 
+  -- show signature help (default C-s is already taken by zellij)
+  vim.keymap.set(
+    'n',
+    'grs',
+    vim.lsp.buf.signature_help,
+    { desc = 'Show signature help (more than <K>)' }
+  ),
+
   -- show error explanation
   vim.keymap.set(
     'n',
