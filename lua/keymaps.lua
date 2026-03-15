@@ -40,4 +40,10 @@ return {
 
   -- show error explanation
   set('n', '<leader>s', vim.diagnostic.open_float, { desc = '[S]how error' }),
+
+  -- Toggle virtual lines
+  vim.keymap.set('n', '<leader>t', function()
+    local new_config = not vim.diagnostic.config().virtual_lines
+    vim.diagnostic.config { virtual_lines = new_config }
+  end, { desc = '[T]oggle diagnostic virtual_lines' }),
 }
