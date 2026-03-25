@@ -4,17 +4,15 @@ vim.pack.add {
 }
 
 require('fidget').setup {
-  opts = {
-    progress = {
-      display = {
-        render_limit = 5,
-      },
+  progress = {
+    display = {
+      render_limit = 5,
     },
-    notification = {
-      window = {
-        winblend = 0,
-        border = 'rounded',
-      },
+  },
+  notification = {
+    window = {
+      winblend = 0,
+      border = 'rounded',
     },
   },
 }
