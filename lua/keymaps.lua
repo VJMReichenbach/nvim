@@ -81,4 +81,13 @@ return {
     local new_config = not vim.diagnostic.config().virtual_lines
     vim.diagnostic.config { virtual_lines = new_config }
   end, { desc = '[T]oggle diagnostic virtual_lines' }),
+
+  -- package management
+  vim.keymap.set('n', '<leader>pi', function()
+    vim.pack.update(nil, { offline = true })
+  end, { desc = 'Show [I]nstalled packages' }),
+
+  vim.keymap.set('n', '<leader>pu', function()
+    vim.pack.update(nil, { offline = true })
+  end, { desc = '[U]pdate packages' }),
 }

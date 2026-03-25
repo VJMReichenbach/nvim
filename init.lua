@@ -33,38 +33,6 @@ vim.api.nvim_create_autocmd('TextYankPost', {
   end,
 })
 
--- [[ Install `lazy.nvim` plugin manager ]]
---    See `:help lazy.nvim.txt` or https://github.com/folke/lazy.nvim for more info
-local lazypath = vim.fn.stdpath 'data' .. '/lazy/lazy.nvim'
-if not (vim.uv or vim.loop).fs_stat(lazypath) then
-  local lazyrepo = 'https://github.com/folke/lazy.nvim.git'
-  local out = vim.fn.system {
-    'git',
-    'clone',
-    '--filter=blob:none',
-    '--branch=stable',
-    lazyrepo,
-    lazypath,
-  }
-  if vim.v.shell_error ~= 0 then
-    error('Error cloning lazy.nvim:\n' .. out)
-  end
-end ---@diagnostic disable-next-line: undefined-field
-vim.opt.rtp:prepend(lazypath)
-
--- [[ Configure and install plugins ]]
-require('lazy').setup {
-  spec = {
-    -- import everything from `plugins/*.lua`
-    { import = 'plugins' },
-  },
-  -- automatically check for plugin updates
-  -- checker = { enabled = true },
-}
-
--- import keymaps
-require 'keymaps'
-
 -- add filetype for gitconfig
 vim.filetype.add {
   extension = {
@@ -74,3 +42,12 @@ vim.filetype.add {
     kanata = 'lisp',
   },
 }
+
+-- import keymaps
+require 'keymaps'
+
+-- do colorscheme here so it is already set for plugin installation
+vim.pack.add {
+  { src = 'https://github.com/catppuccin/nvim', name = 'catppuccin' },
+}
+vim.cmd.colorscheme 'catppuccin-mocha'
