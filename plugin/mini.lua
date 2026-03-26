@@ -29,3 +29,25 @@ statusline.setup { use_icons = vim.g.have_nerd_font }
 statusline.section_location = function()
   return '%2l:%-2v'
 end
+
+-- Telescope replacement
+require('mini.pick').setup()
+
+vim.keymap.set(
+  'n',
+  '<leader>ff',
+  MiniPick.builtin.files,
+  { desc = '[F]ind [F]iles' }
+)
+vim.keymap.set(
+  'n',
+  '<leader>fa',
+  MiniPick.builtin.grep_live,
+  { desc = '[F]ind across [A]ll files' }
+)
+vim.keymap.set(
+  'n',
+  '<leader>fh',
+  MiniPick.builtin.help,
+  { desc = '[F]ind in [H]elp' }
+)
