@@ -33,9 +33,3 @@ vim.keymap.set(
   builtin.help_tags,
   { desc = '[F]ind in [H]elp' }
 )
-vim.keymap.set(
-  'n',
-  '<leader>fc',
-  builtin.current_buffer_fuzzy_find,
-  { desc = '[F]uzzily search in [C]urrent buffer' }
-)
