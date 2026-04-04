@@ -22,6 +22,7 @@ yay -S \
   tinymist `# Typst language server` \
   typstyle `# Typst formatter` \
   mdformat `# Markdown formatter` \
+  tombi `# Toml lsp/linter/formatter` \
   bun `# Package Manager/Runtime for webdev stuff` \
 ```
 

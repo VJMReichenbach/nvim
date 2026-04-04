@@ -27,6 +27,7 @@ local servers = {
   'lua_ls', -- Lua language server
   'texlab', -- LaTeX language server
   'tinymist', -- Typst lsp
+  'tombi', -- Toml lsp
 }
 
 for _, server in pairs(servers) do

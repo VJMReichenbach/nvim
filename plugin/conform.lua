@@ -26,6 +26,6 @@ require('conform').setup {
     -- config files
     json = { 'oxfmt' },
     yaml = { 'oxfmt' },
-    toml = { 'oxfmt' },
+    toml = { 'tombi format' },
   },
 }
